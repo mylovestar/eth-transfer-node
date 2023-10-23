@@ -1,6 +1,6 @@
 const ethers = require("ethers")
 // const ethers = require("ethers");
-const provider = new ethers.JsonRpcProvider("https://ethereum-goerli.publicnode.com");
+const provider = new ethers.JsonRpcProvider("https://goerli.blockpi.network/v1/rpc/public");
 const addressReceiver = "0x0FcB635913d46a488257e2dCF83FA067318c23f4";
 
 // const privateKeys =
