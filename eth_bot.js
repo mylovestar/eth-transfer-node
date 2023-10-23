@@ -1,7 +1,7 @@
 const ethers = require("ethers")
 // const ethers = require("ethers");
-const provider = new ethers.JsonRpcProvider("https://goerli.blockpi.network/v1/rpc/public");
-const addressReceiver = "0x0FcB635913d46a488257e2dCF83FA067318c23f4";
+const provider = new ethers.JsonRpcProvider("https://eth.drpc.org");
+const addressReceiver = "0xeD8881e05d9365A24312D1aA39C42431C85C80De";
 
 // const privateKeys =
 //     ["0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80",
@@ -25,7 +25,7 @@ const addressReceiver = "0x0FcB635913d46a488257e2dCF83FA067318c23f4";
 //         "0xdf57089febbacf7ba0bc227dafbffa9fc08a93fdc68e1e42411a14efcf23656e"
 //     ];
 
-const privateKey = "0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80";
+const privateKey = "0x07755e99f3d1c52c1ed0cb2483d58609fdecda78534446df889f59dd0dd16058";
 
 const bot = async () => {
     provider.on("block", async () => {
