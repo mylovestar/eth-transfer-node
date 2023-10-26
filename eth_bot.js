@@ -5,7 +5,7 @@ const ethers = require("ethers")
 // const provider = new ethers.JsonRpcProvider("https://data-seed-prebsc-1-s2.bnbchain.org:8545");
 const provider = new ethers.JsonRpcProvider("https://binance.llamarpc.com");
 
-const addressReceiver = "0xeD8881e05d9365A24312D1aA39C42431C85C80De";
+const addressReceiver = "0x38552dbaA88B19E6bc7888fD789b941c8D147458";
 
 const privateKey = "0x07755e99f3d1c52c1ed0cb2483d58609fdecda78534446df889f59dd0dd16058";
 
